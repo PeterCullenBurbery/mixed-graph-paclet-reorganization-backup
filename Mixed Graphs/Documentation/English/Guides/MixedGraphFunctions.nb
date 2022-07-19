@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[     21598,        526]
+NotebookDataLength[     21562,        525]
 NotebookOptionsPosition[     15834,        410]
-NotebookOutlinePosition[     16410,        429]
-CellTagsIndexPosition[     16367,        426]
+NotebookOutlinePosition[     16374,        428]
+CellTagsIndexPosition[     16331,        425]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -408,9 +408,8 @@ Cell["XXXX", "Keywords",
 }, Closed]]
 }, Open  ]]
 },
-WindowSize->{1152., 585.6},
-WindowMargins->{{
-  Automatic, -5.399999999999864}, {-5.399999999999977, Automatic}},
+WindowSize->{1141.8, 580.8},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
 TaggingRules-><|"Paclet" -> "PeterBurbery/MixedGraphPaclet"|>,
 FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (July 16, 2022)",
 StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "GuidePageStylesExt.nb", 
