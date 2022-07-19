@@ -1,3 +1,5 @@
+(* ::Package:: *)
+
 PacletObject[
   <|
     "Name" -> "PeterBurbery/UndirectedGraphs",
@@ -16,7 +18,7 @@ PacletObject[
             "PeterBurbery`UndirectedGraphs`",
             "UndirectedGraphs.wl"
           }
-        }
+        },"Symbols"->{"PeterBurbery`UndirectedGraphs`OddNodes"}
       },
       {"Documentation", "Language" -> "English"}
     }
