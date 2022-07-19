@@ -1,0 +1,405 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.2' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     14851,        395]
+NotebookOptionsPosition[     13990,        374]
+NotebookOutlinePosition[     14391,        390]
+CellTagsIndexPosition[     14348,        387]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+
+Cell[CellGroupData[{
+Cell[BoxData[
+ RowBox[{"?", "RandomCustomGraph"}]], "Input",
+ CellChangeTimes->{{3.8672396941147337`*^9, 3.867239695296738*^9}},
+ CellLabel->
+  "In[408]:=",ExpressionUUID->"250498e8-64e8-4f89-95ff-86c38612a8f9"],
+
+Cell[BoxData[
+ InterpretationBox[
+  StyleBox[
+   FrameBox[
+    DynamicModuleBox[{System`InformationDump`open$$ = True, 
+     System`InformationDump`mouseOver$$ = False}, 
+     PaneSelectorBox[{True->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox["\<\" Symbol\"\>", "InformationTitleText",
+             StripOnInput->False,
+             BaseStyle -> None],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"Global`RandomCustomGraph\"\>", 
+             "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          PaneBox[
+           TagBox[GridBox[{
+              {
+               StyleBox[
+                TagBox[
+                 TooltipBox[
+                  StyleBox["\<\" Definitions\"\>", "InformationRowLabel",
+                   StripOnInput->False],
+                  "\"Definitions\"",
+                  TooltipStyle->"TextStyling"],
+                 Annotation[#, "Definitions", "Tooltip"]& ], "DialogStyle",
+                StripOnInput->False]},
+              {
+               TemplateBox[{"\"\[ThinSpace]\"", 
+                 GridBox[{{
+                    RowBox[{
+                    RowBox[{"RandomCustomGraph", "[", 
+                    RowBox[{
+                    RowBox[{"{", 
+                    RowBox[{"nodes_", ",", "edges_"}], "}"}], ",", 
+                    "quality_"}], "]"}], ":=", 
+                    RowBox[{"NestWhile", "[", 
+                    RowBox[{
+                    RowBox[{
+                    RowBox[{"RandomGraph", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"nodes", ",", "edges"}], "}"}], "]"}], "&"}], ",",
+                     "Null", ",", 
+                    RowBox[{
+                    RowBox[{"!", 
+                    RowBox[{"quality", "[", "#1", "]"}]}], "&"}], ",", "1", 
+                    ",", "1000"}], "]"}]}]}, {" "}}, 
+                  GridBoxAlignment -> {"Columns" -> {{Left}}}, 
+                  DefaultBaseStyle -> "Column", 
+                  GridBoxItemSize -> {
+                   "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}]},
+                "RowDefault"]}
+             },
+             DefaultBaseStyle->"Column",
+             GridBoxAlignment->{"Columns" -> {{Left}}},
+             
+             GridBoxItemSize->{
+              "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+            "Column"],
+           FrameMargins->{{6, 0}, {3, 6}}], "\<\"\"\>"},
+         {
+          PaneBox[GridBox[{
+             {
+              
+              DynamicModuleBox[{System`InformationDump`open$$ = {
+               False, False, False, False, False, False}}, 
+               StyleBox[GridBox[{
+                  {
+                   TagBox[
+                    TooltipBox[
+                    StyleBox["\<\" Full Name\"\>", "InformationRowLabel",
+                    StripOnInput->False],
+                    "\"FullName\"",
+                    TooltipStyle->"TextStyling"],
+                    
+                    Annotation[#, "FullName", 
+                    "Tooltip"]& ], "\<\"Global`RandomCustomGraph\"\>"}
+                 },
+                 AutoDelete->False,
+                 GridBoxAlignment->{"Columns" -> {Right, Left}},
+                 GridBoxDividers->None,
+                 GridBoxItemSize->{"Columns" -> {Automatic, Automatic}},
+                 GridBoxSpacings->{"Columns" -> {
+                    Offset[0.27999999999999997`], {
+                    Offset[0.5599999999999999]}, 
+                    Offset[0.27999999999999997`]}, "Rows" -> {
+                    Offset[0.2], {
+                    Offset[0.8]}, 
+                    Offset[0.2]}}], "DialogStyle",
+                StripOnInput->False],
+               DynamicModuleValues:>{}]}
+            },
+            DefaultBaseStyle->"Column",
+            GridBoxAlignment->{"Columns" -> {{Left}}},
+            GridBoxDividers->{"Columns" -> {{False}}, "Rows" -> {{False}}},
+            
+            GridBoxItemSize->{
+             "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}},
+            GridBoxSpacings->{"Columns" -> {
+                Offset[0.27999999999999997`], {
+                 Offset[0.5599999999999999]}, 
+                Offset[0.27999999999999997`]}, "Rows" -> {
+                Offset[0.2], {
+                 Offset[3.6]}, 
+                Offset[0.2]}}],
+           FrameMargins->{{6, 6}, {6, 3}}], ""},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpener"],
+               ImageSizeCache->{12.5, {4., 8.5}}], True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "UpPointerOpenerHot"],
+               ImageSizeCache->{12.5, {4., 8.5}}]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, False],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"], False->
+      TagBox[GridBox[{
+         {
+          ItemBox[
+           PaneBox[
+            StyleBox["\<\" Symbol\"\>", "InformationTitleText",
+             StripOnInput->False],
+            FrameMargins->{{4, 0}, {-1, 1}}],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           PaneBox[
+            
+            StyleBox["\<\"Global`RandomCustomGraph\"\>", 
+             "InformationUsageText",
+             StripOnInput->False,
+             LineSpacing->{1.5, 1.5, 3.}],
+            FrameMargins->{{10, 10}, {8, 10}}],
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False], 
+          ItemBox["\<\"\"\>",
+           BaseStyle->"InformationUsageSubtitleBackground",
+           StripOnInput->False]},
+         {
+          ItemBox[
+           TagBox[
+            ButtonBox[
+             PaneSelectorBox[{False->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpener"]], True->
+              
+              DynamicBox[FEPrivate`FrontEndResource[
+               "FEBitmaps", "DownPointerOpenerHot"]]}, Dynamic[
+              System`InformationDump`mouseOver$$]],
+             Alignment->Left,
+             Appearance->{"Default" -> None},
+             ButtonFunction:>FEPrivate`Set[
+              System`InformationDump`open$$, True],
+             Evaluator->Automatic,
+             FrameMargins->{{9, 0}, {0, 0}},
+             ImageMargins->0,
+             ImageSize->Full,
+             Method->"Preemptive"],
+            
+            EventHandlerTag[{
+             "MouseEntered" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, True], 
+              "MouseExited" :> 
+              FEPrivate`Set[System`InformationDump`mouseOver$$, False], 
+              Method -> "Preemptive", PassEventsDown -> Automatic, 
+              PassEventsUp -> True}]],
+           BaseStyle->"InformationTitleBackground",
+           StripOnInput->False], "\[SpanFromLeft]"}
+        },
+        AutoDelete->False,
+        FrameStyle->Directive[
+          GrayLevel[0.8], 
+          Thickness[Tiny]],
+        GridBoxAlignment->{"Columns" -> {Left, Right}, "Rows" -> {{Center}}},
+        GridBoxDividers->{
+         "Columns" -> {{None}}, "Rows" -> {False, {True}, False}},
+        GridBoxItemSize->{
+         "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+       "Grid"]}, Dynamic[System`InformationDump`open$$],
+      BaselinePosition->Baseline,
+      FrameMargins->0,
+      ImageSize->Automatic],
+     DynamicModuleValues:>{}],
+    BaseStyle->"InformationGridFrame",
+    StripOnInput->False], "InformationGridPlain",
+   StripOnInput->False],
+  InformationData[<|
+   "ObjectType" -> "Symbol", "Usage" -> "Global`RandomCustomGraph", 
+    "Documentation" -> None, "OwnValues" -> None, "UpValues" -> None, 
+    "DownValues" -> 
+    Information`InformationValueForm[
+     DownValues, $CellContext`RandomCustomGraph, \
+{$CellContext`RandomCustomGraph[{
+          Pattern[$CellContext`nodes, 
+           Blank[]], 
+          Pattern[$CellContext`edges, 
+           Blank[]]}, 
+         Pattern[$CellContext`quality, 
+          Blank[]]] :> 
+       NestWhile[
+        RandomGraph[{$CellContext`nodes, $CellContext`edges}]& , Null, Not[
+          $CellContext`quality[#]]& , 1, 1000]}], "SubValues" -> None, 
+    "DefaultValues" -> None, "NValues" -> None, "FormatValues" -> None, 
+    "Options" -> None, "Attributes" -> {}, "FullName" -> 
+    "Global`RandomCustomGraph"|>, False]]], "Output",
+ CellChangeTimes->{3.8672396957967243`*^9},
+ CellLabel->
+  "Out[408]=",ExpressionUUID->"dc997002-a419-4d4e-86b3-eb16b82a098a"]
+}, Open  ]],
+
+Cell[BoxData[
+ RowBox[{"Remove", "[", "Global`RandomCustomGraph", "]"}]], "Input",
+ CellChangeTimes->{{3.867239704426591*^9, 3.8672397071635847`*^9}, {
+  3.867239817800454*^9, 3.8672398187744675`*^9}},
+ CellLabel->
+  "In[746]:=",ExpressionUUID->"184d3214-65a0-4b21-a89b-365725a2ceb0"],
+
+Cell[BoxData[
+ PaneBox[
+  TagBox[GridBox[{
+     {
+      StyleBox[
+       TagBox[
+        TooltipBox[
+         StyleBox["\<\" Definitions\"\>", "InformationRowLabel",
+          StripOnInput->False],
+         "\"Definitions\"",
+         TooltipStyle->"TextStyling"],
+        Annotation[#, "Definitions", "Tooltip"]& ], "DialogStyle",
+       StripOnInput->False]},
+     {
+      TemplateBox[{"\"\[ThinSpace]\"", 
+        GridBox[{{
+           RowBox[{
+             RowBox[{"RandomCustomGraph", "[", 
+               RowBox[{
+                 RowBox[{"{", 
+                   RowBox[{"nodes_", ",", "edges_"}], "}"}], ",", 
+                 "quality_"}], "]"}], ":=", 
+             RowBox[{"NestWhile", "[", 
+               RowBox[{
+                 RowBox[{
+                   RowBox[{"RandomGraph", "[", 
+                    RowBox[{"{", 
+                    RowBox[{"nodes", ",", "edges"}], "}"}], "]"}], "&"}], ",",
+                  "Null", ",", 
+                 RowBox[{
+                   RowBox[{"!", 
+                    RowBox[{"quality", "[", "#1", "]"}]}], "&"}], ",", "1", 
+                 ",", "1000"}], "]"}]}]}, {" "}}, 
+         GridBoxAlignment -> {"Columns" -> {{Left}}}, DefaultBaseStyle -> 
+         "Column", 
+         GridBoxItemSize -> {
+          "Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}]},
+       "RowDefault"]}
+    },
+    DefaultBaseStyle->"Column",
+    GridBoxAlignment->{"Columns" -> {{Left}}},
+    GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
+   "Column"],
+  FrameMargins->{{6, 0}, {3, 6}}]], "Input",ExpressionUUID->"31acc93e-6b8f-\
+4477-911a-558dfd761c8f"],
+
+Cell[BoxData[
+ RowBox[{
+  RowBox[{"RandomCustomGraph", "[", 
+   RowBox[{
+    RowBox[{"{", 
+     RowBox[{"nodes_", ",", "edges_"}], "}"}], ",", "quality_"}], "]"}], ":=", 
+  RowBox[{"NestWhile", "[", 
+   RowBox[{
+    RowBox[{
+     RowBox[{"RandomGraph", "[", 
+      RowBox[{"{", 
+       RowBox[{"nodes", ",", "edges"}], "}"}], "]"}], "&"}], ",", "Null", ",", 
+    RowBox[{"!", "quality"}], ",", "1", ",", "2980"}], "]"}]}]], "Input",
+ CellChangeTimes->{{3.8672397286045885`*^9, 
+  3.8672397519326963`*^9}},ExpressionUUID->"53f4fe6d-2d02-4b0a-8062-\
+cca716237e5b"],
+
+Cell[BoxData[
+ RowBox[{"?", "Rand"}]], "Input",
+ CellChangeTimes->{{3.867239863276904*^9, 
+  3.867239864132463*^9}},ExpressionUUID->"c3cc4b56-5463-4e32-8884-\
+43d959799e1c"]
+},
+WindowSize->{1117.8, 585.6},
+WindowMargins->{{0, Automatic}, {Automatic, 0}},
+FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (July 16, 2022)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"5580022e-66b0-47ea-a39e-bbe56538fbab"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[CellGroupData[{
+Cell[580, 22, 211, 4, 35, "Input",ExpressionUUID->"250498e8-64e8-4f89-95ff-86c38612a8f9"],
+Cell[794, 28, 10525, 267, 259, "Output",ExpressionUUID->"dc997002-a419-4d4e-86b3-eb16b82a098a"]
+}, Open  ]],
+Cell[11334, 298, 284, 5, 35, "Input",ExpressionUUID->"184d3214-65a0-4b21-a89b-365725a2ceb0"],
+Cell[11621, 305, 1624, 44, 116, "Input",ExpressionUUID->"31acc93e-6b8f-4477-911a-558dfd761c8f"],
+Cell[13248, 351, 562, 15, 35, "Input",ExpressionUUID->"53f4fe6d-2d02-4b0a-8062-cca716237e5b"],
+Cell[13813, 368, 173, 4, 35, "Input",ExpressionUUID->"c3cc4b56-5463-4e32-8884-43d959799e1c"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
