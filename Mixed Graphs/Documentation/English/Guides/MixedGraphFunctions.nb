@@ -408,10 +408,10 @@ Cell["XXXX", "Keywords",
 }, Closed]]
 }, Open  ]]
 },
-WindowSize->{1141.8, 580.8},
+WindowSize->{1141.2, 574.8},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
 TaggingRules-><|"Paclet" -> "PeterBurbery/MixedGraphPaclet"|>,
-FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (July 16, 2022)",
+FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
 StyleDefinitions->FrontEnd`FileName[{"Wolfram"}, "GuidePageStylesExt.nb", 
   CharacterEncoding -> "UTF-8"],
 ExpressionUUID->"01b6cfda-baa2-46be-9f7d-75930fe3438c"
