@@ -372,9 +372,9 @@ Cell[BoxData[
   3.867239864132463*^9}},ExpressionUUID->"c3cc4b56-5463-4e32-8884-\
 43d959799e1c"]
 },
-WindowSize->{1117.8, 585.6},
+WindowSize->{1117.8, 575.4},
 WindowMargins->{{0, Automatic}, {Automatic, 0}},
-FrontEndVersion->"13.2 for Microsoft Windows (64-bit) (July 16, 2022)",
+FrontEndVersion->"13.1 for Microsoft Windows (64-bit) (June 16, 2022)",
 StyleDefinitions->"Default.nb",
 ExpressionUUID->"5580022e-66b0-47ea-a39e-bbe56538fbab"
 ]
@@ -400,6 +400,4 @@ Cell[13813, 368, 173, 4, 35, "Input",ExpressionUUID->"c3cc4b56-5463-4e32-8884-43
 }
 ]
 *)
-
-(* End of internal cache information *)
 
